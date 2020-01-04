@@ -1,5 +1,4 @@
-# Assignment Made by Rohit Lal- Front-end application which would let the users help list and browse all Characters of
-Rick and Morty Show.
+# Assignment Made by Rohit Lal- Front-end application which would let the users help list and browse all Characters of Rick and Morty Show.
 
 ## How to Start
 
@@ -18,10 +17,6 @@ Builds the app for production to the `build` folder. It correctly bundles React 
 and optimizes the build for the best performance.
 
 Once this is done, you can easily serve it with a static server by running `npx serve build`.
-
-## Discussion
-
-This was a fun little project to build. Some things to note:
 
 ### Create React App & TypeScript
 
