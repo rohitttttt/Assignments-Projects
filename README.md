@@ -1,5 +1,6 @@
 # Assignment Made by Rohit Lal- Front-end application which would let the users help list and browse all Characters of Rick and Morty Show.I have given the Search Functionality.
 
+## Note: Due to time issue i have not implemented server side rendering and implement only basic search functionality.
 ## How to Start
 
 In the project directory, first run `npm install` to install the dependencies. Then you can run:
