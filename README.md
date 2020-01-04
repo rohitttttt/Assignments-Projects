@@ -1,4 +1,4 @@
-# Assignment Made by Rohit Lal- Front-end application which would let the users help list and browse all Characters of Rick and Morty Show.
+# Assignment Made by Rohit Lal- Front-end application which would let the users help list and browse all Characters of Rick and Morty Show.I have given the Search Functionality.
 
 ## How to Start
 
