@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- React -->
+    <script src="index.js"></script>
+    <!-- <script src="http://fb.me/JSXTransformer-0.12.2.js"></script> -->
+    <!-- Custom -->
+    <link rel="stylesheet" href="index.css" />
+    <title>Weather DashBoard</title>
+  </head>
+
+  <body onload="load()">
+    <div class="main">
+      <div onclick="onModalClick()" id="itemModal" class="modal hideModal">
+        <div class="modalContent" id="modalContent"></div>
+      </div>
+      <div class="title">
+        Weather Report
+      </div>
+      <div class="filterBar">
+        <section>
+          <a onclick="sortChange(true)">ASC</a>
+          <a onclick="sortChange(false)">DESC</a>
+          <input
+            type="text"
+            placeholder="Search for cities..."
+            id="searchField"
+          />
+        </section>
+        <section>
+          <label class="container">
+            <input
+              type="checkbox"
+              id="sunny"
+              onchange="onCheckChange(this)"
+              name="sunny"
+              checked
+              value="Sunny"
+            />
+            Sunny
+          </label>
+
+          <label class="container">
+            <input
+              type="checkbox"
+              id="cloudy"
+              name="cloudy"
+              onchange="onCheckChange(this)"
+              checked
+              value="Cloudy"
+            />
+            Cloudy
+          </label>
+
+          <label class="container">
+            <input
+              type="checkbox"
+              id="snowy"
+              name="snowy"
+              onchange="onCheckChange(this)"
+              checked
+              value="Snowy"
+            />
+            Snowy
+          </label>
+        </section>
+      </div>
+      <div class="contentArea" id="contentArea"></div>
+    </div>
+    <!-- <script type="text/jsx" src="scripts.js"></script> -->
+  </body>
+</html>
